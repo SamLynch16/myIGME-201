@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathQuizTimer", "MathQuizTimer.csproj", "{EA1A129C-5A92-4556-B127-7EB9175F859C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA1A129C-5A92-4556-B127-7EB9175F859C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1A129C-5A92-4556-B127-7EB9175F859C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1A129C-5A92-4556-B127-7EB9175F859C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1A129C-5A92-4556-B127-7EB9175F859C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5DAFFC9-95AA-4D4B-B5D8-8E4FFC31A617}
+	EndGlobalSection
+EndGlobal
