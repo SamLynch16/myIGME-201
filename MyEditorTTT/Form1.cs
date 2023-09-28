@@ -79,7 +79,7 @@ namespace MyEditor
 
             this.timer.Start();
         }
-
+        //
         private void Timer__tick(object sender, EventArgs e)
         {
             --this.toolStripProgressBar1.Value;
