@@ -6,10 +6,10 @@
 
 [+I:ICup|+color:string;+volume:double;|+Refill();+Wash()]
 
-[+A:HotDrink]<-.-[+:CupofCoffee|+BeanType:string;]^[+I:ICup]
+[+A:HotDrink]<-.-[+:CupofCoffee|+BeanType:string;]
 
 
-[+A:HotDrink]<-.-[+:CupofTea|+LeafType:string;]^[+I:ICup]
+[+A:HotDrink]<-.-[+:CupofTea|+LeafType:string;]
 
-
+[+I:ICup]^[+:CupofTea]
 
