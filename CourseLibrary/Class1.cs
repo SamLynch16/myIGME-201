@@ -76,7 +76,7 @@ namespace CourseLibrary
 
         public Course()
         {
-
+            //constructor
         }
     }
 
