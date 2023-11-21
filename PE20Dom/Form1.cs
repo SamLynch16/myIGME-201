@@ -95,7 +95,7 @@ namespace PE20Dom
             }
 
             HtmlElement footerElement = webBrowser.Document.CreateElement("footer");
-            footerElement.InnerHtml = "&copy; " + DateTime.Now.Year + " Your Name";
+            footerElement.InnerHtml = "&copy; " + DateTime.Now.Year + " Sam Lynch";
             webBrowser.Document.Body.AppendChild(footerElement);
         }
 
