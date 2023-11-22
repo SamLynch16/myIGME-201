@@ -47,7 +47,7 @@ namespace TriviaApp
 
             Trivia trivia = JsonConvert.DeserializeObject<TriviaResult>(s);
 
-            trivia.triviaResults[0].question = HttpUtility.HtmlDecode(trivia.triviaResults[0].question);
+            trivia.triviaResults[0].question = HttpUtilit.HtmlDecode(trivia.triviaResults[0].question);
         }
     }
         
