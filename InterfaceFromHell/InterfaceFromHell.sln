@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceFromHell", "InterfaceFromHell.csproj", "{B7BBE050-B5F2-422F-B8C1-D0075E02990E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7BBE050-B5F2-422F-B8C1-D0075E02990E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7BBE050-B5F2-422F-B8C1-D0075E02990E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7BBE050-B5F2-422F-B8C1-D0075E02990E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7BBE050-B5F2-422F-B8C1-D0075E02990E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B89A3E07-B9FF-469E-B63D-7EA885304094}
+	EndGlobalSection
+EndGlobal
