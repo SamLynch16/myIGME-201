@@ -30,7 +30,7 @@ namespace FinalExamProblem4
         public void AddEdge(string source, string destination, int weight)
         {
             AdjacencyList[source].Add(Tuple.Create(destination, weight));
-            AdjacencyList[destination].Add(Tuple.Create(source, weight)); // For undirected graph (remove for directed graph)
+            AdjacencyList[destination].Add(Tuple.Create(source, weight)); 
         }
 
         public List<string> DijkstraShortestPath(string startNode, string endNode)
@@ -47,7 +47,7 @@ namespace FinalExamProblem4
             }
             distances[startNode] = 0;
 
-            // Dijkstra's algorithm
+            
             while (visited.Count < AdjacencyList.Count)
             {
                 string currentNode = GetMinimumDistanceNode(distances, visited);
@@ -67,7 +67,7 @@ namespace FinalExamProblem4
                 }
             }
 
-            // Reconstruct the shortest path
+         
             List<string> shortestPath = new List<string>();
             string current = endNode;
             while (current != null)
@@ -94,21 +94,21 @@ namespace FinalExamProblem4
         {
             ColoredGraph coloredGraph = new ColoredGraph();
 
-            // Add nodes with colors
+            
             coloredGraph.AddNode("red", "red");
             coloredGraph.AddNode("darkblue", "darkblue");
             coloredGraph.AddNode("yellow", "yellow");
             coloredGraph.AddNode("green", "green");
 
-            // Add edges with weights
+           
             coloredGraph.AddEdge("red", "darkblue", 3);
             coloredGraph.AddEdge("darkblue", "yellow", 2);
             coloredGraph.AddEdge("yellow", "green", 1);
 
-            // Find the shortest path from "red" to "green" based on colors
+           
             List<string> shortestPath = coloredGraph.DijkstraShortestPath("red", "green");
 
-            // Output the shortest path of colors
+            
             Console.WriteLine("Shortest Path from Red to Green:");
             Console.WriteLine(string.Join(" -> ", shortestPath.Select(node => $"{node} ({coloredGraph.NodeColors[node]})")));
         }
